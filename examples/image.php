@@ -37,8 +37,8 @@ $pdf->ezImage('images/test_indexed.png', 0, 0, 'none', 'right');
 $pdf->ezNewPage();
 $pdf->ezText("PNG indexed transparent (NOT SUPPORTED):\n\n");
 $pdf->ezImage('images/test_indexed_transparent.png', 0, 0, 'none', 'right');
-$pdf->ezText('JPEG from an external resource');
-$pdf->ezImage('https://github.com/rospdf/pdf-php/raw/master/ros.jpg', 0, 0, 'none', 'right');
+$pdf->ezText('JPEG from an external resource\n\n\n\n\n\n\n\n');
+$pdf->ezImage('https://github.com/rospdf/pdf-php/raw/master/ros.jpg', 0, 0, 'none', 'left');
 
 $pdf->ezText("GIF image converted into JPG\n\n");
 $pdf->ezImage('images/test_alpha.gif', 0, 0, 'none', 'right');
